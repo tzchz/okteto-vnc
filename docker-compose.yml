@@ -2,7 +2,7 @@ services:
     ubuntu:
         public: true
         container_name: tzchz
-        image: imlala/ubuntu-xfce-vnc-novnc:latest
+        image: consol/ubuntu-xfce-vnc:latest
         ports:
             - 6080:6080
         environment: 
